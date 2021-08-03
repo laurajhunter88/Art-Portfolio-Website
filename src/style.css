@@ -121,7 +121,7 @@ footer {
   transition: all 200ms ease-in-out;
 }
 
-.art-button {
+.web-dev-button {
   color: white;
   background-color: var(--tertiary-color);
   border: 2px solid #e9e3f2;
@@ -133,7 +133,7 @@ footer {
   font-family: var(--signature-font);
 }
 
-.art-button:hover {
+.web-dev-button:hover {
   background-color: white;
   color: var(--tertiary-color);
   border: 2px solid var(--tertiary-color);
