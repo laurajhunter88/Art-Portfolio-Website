@@ -64,12 +64,23 @@
               <a
                 class="nav-link"
                 aria-current="page"
-                title="Laura Hunter's Portfolio"
-                href="/portfolio.html"
-                >Portfolio</a
+                title="An Artist's Journey - Blog"
+                href="/blog.html"
+                >Blog</a
               >
             </li>
             <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                title="Laura Hunter's Gallery"
+                href="/portfolio.html"
+                >Gallery</a
+              >
+            </li>
+
+            <!--- 
+              <li class="nav-item">
               <a
                 aria-current="page"
                 class="nav-link"
@@ -78,25 +89,27 @@
                 >Shop</a
               >
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                title="Laura Hunter's Portfolio"
-                href="/web-development.html"
-                >Web Design & Development</a
-              >
-            </li>
-
+            --->
             <li class="nav-item">
               <a
                 class="nav-link"
                 aria-current="page"
                 title="Contact Laura Hunter"
-                href="/shop.html"
+                href="/contact.html"
                 >Contact Me</a
               >
             </li>
+            <!--- 
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                title="Laura Hunter's Web Development Website"
+                href="#"
+                >Web Development</a
+              >
+            </li>
+            --->
           </ul>
         </div>
       </div>
@@ -171,63 +184,90 @@
             what I have achieved on the Beginner Program on the
             <a class="portfolio-link" href="/portfolio.html">Portfolio</a> page.
             <br />
-            I am just starting the Mastery Program and will be sharing my
-            journey through the year long course on Youtube, Instagram, Tiktok
-            and on a weekly blog on this website. If you would like to follow my
+            <br />
+            I am now in the Mastery Program and will be sharing my journey
+            throughout the year long course on Youtube, Instagram, Tiktok and on
+            a weekly blog on this website. If you would like to follow my
             journey, all of the links to my social media are at the bottom of
             the page or you can sign up for a weekly newsletter below.
           </p>
         </div>
+        <div class="container">
+          <div class="row justify-content-center newsletter">
+            <div class="col-12">
+              <h3 class="mt-3 mb-3 newsletter-title">Newsletter</h3>
+              <p>
+                Sign up for a weekly newsletter to get notified about new blog
+                posts and news:
+              </p>
 
-        <form>
-          <div class="row g-3">
-            <div class="col-md-6">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="First name"
-                aria-label="First name"
-              />
-            </div>
-            <div class="col-md-6">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Last name"
-                aria-label="Last name"
-              />
+              <form class="newsletter-form">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                      aria-label="First name"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                      aria-label="Last name"
+                    />
+                  </div>
+                </div>
+
+                <div class="row g-3 mt-2">
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="inputEmail4"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <button
+                      type="submit"
+                      class="btn btn-primary newsletter-button"
+                    >
+                      Sign Up
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
-          <div class="row g-3">
-            <div class="col-12">
-              <input
-                type="email"
-                class="form-control"
-                id="inputEmail4"
-                placeholder="Email"
-              />
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary newsletter-button">
-                Sign Up
-              </button>
-            </div>
-          </div>
-        </form>
+        </div>
 
-        <div class="container-color biography-text">
-          <h3>Biography</h3>
+        <div class="interests-text">
+          <h3>My Interests</h3>
+          <br />
+
+          <h4>🎬 Education 📖</h4>
           <p>
             As a nice compliment to my new aspirations I am half way through an
             Arts and Humanities degree focusing on Art History and Music with
             the Open University. I started this a year before I became
             interested in art again. 🤔 It's almost like I was meant to be doing
             art all along!
+            <br />
+            <br />
+            I have also been educating myself in the art of coding and web
+            development. I designed and coded this website myself. If you are
+            interested in finding out more or working with me on that front
+            click the link belowe to look at my Web Development Portfolio.
           </p>
-        </div>
-
-        <div class="interests-text">
-          <h3>My Interests</h3>
+          <div class="button d-flex justify-content-evenly">
+            <a class="web-dev-button btn" href="#"
+              >Learn more about Web Development!</a
+            >
+          </div>
+          <br />
           <br />
 
           <h4>🎬 Stories 📖</h4>
@@ -251,12 +291,6 @@
             And I have been taking singing lessons since I was 14 years old. I
             would also love to learn piano and guitar!
           </p>
-
-          <div class="button d-flex justify-content-evenly">
-            <a class="art-button btn" href="#"
-              >Learn more about Web Development!</a
-            >
-          </div>
         </div>
       </section>
     </div>
